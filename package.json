@@ -1,0 +1,25 @@
+{
+  "name": "online-classroom-api",
+  "version": "1.0.0",
+  "description": "google-meet clone",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "google",
+    "meet",
+    "online-classroom",
+    "zoom-clone"
+  ],
+  "author": "Fawumi Odunayo Ayodeji",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "peer": "^0.6.1",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
